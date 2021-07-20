@@ -1,6 +1,4 @@
 *.orig
-*.filters
-*.vcxproj
 *.xcodeproj
 
 .vs/
