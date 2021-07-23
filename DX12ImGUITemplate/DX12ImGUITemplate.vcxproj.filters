@@ -13,8 +13,20 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="DearImGUI">
+    <Filter Include="Github">
+      <UniqueIdentifier>{6fd16242-de77-4994-8547-0a69346d6b4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParties">
+      <UniqueIdentifier>{af461be7-4e5f-4e70-bd46-9c6461bc5004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParties\DearImGUI">
       <UniqueIdentifier>{0efe7cfe-07d3-4ad3-88d1-35fda2050b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\app">
+      <UniqueIdentifier>{c2f695cd-4aa0-46a7-aef1-ea19ddb581cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{69e058cd-e55d-41ff-bea1-b50974de5a3f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -22,51 +34,71 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ThirdParties\DearImGUI\imgui.cpp">
-      <Filter>DearImGUI</Filter>
+      <Filter>ThirdParties\DearImGUI</Filter>
     </ClCompile>
     <ClCompile Include="..\ThirdParties\DearImGUI\imgui_demo.cpp">
-      <Filter>DearImGUI</Filter>
+      <Filter>ThirdParties\DearImGUI</Filter>
     </ClCompile>
     <ClCompile Include="..\ThirdParties\DearImGUI\imgui_draw.cpp">
-      <Filter>DearImGUI</Filter>
+      <Filter>ThirdParties\DearImGUI</Filter>
     </ClCompile>
     <ClCompile Include="..\ThirdParties\DearImGUI\imgui_impl_dx12.cpp">
-      <Filter>DearImGUI</Filter>
+      <Filter>ThirdParties\DearImGUI</Filter>
     </ClCompile>
     <ClCompile Include="..\ThirdParties\DearImGUI\imgui_impl_win32.cpp">
-      <Filter>DearImGUI</Filter>
+      <Filter>ThirdParties\DearImGUI</Filter>
     </ClCompile>
     <ClCompile Include="..\ThirdParties\DearImGUI\imgui_tables.cpp">
-      <Filter>DearImGUI</Filter>
+      <Filter>ThirdParties\DearImGUI</Filter>
     </ClCompile>
     <ClCompile Include="..\ThirdParties\DearImGUI\imgui_widgets.cpp">
-      <Filter>DearImGUI</Filter>
+      <Filter>ThirdParties\DearImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12App.cpp">
+      <Filter>Source Files\app</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12TemplateApp.cpp">
+      <Filter>Source Files\app</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ThirdParties\DearImGUI\imconfig.h">
-      <Filter>DearImGUI</Filter>
+      <Filter>ThirdParties\DearImGUI</Filter>
     </ClInclude>
     <ClInclude Include="..\ThirdParties\DearImGUI\imgui.h">
-      <Filter>DearImGUI</Filter>
+      <Filter>ThirdParties\DearImGUI</Filter>
     </ClInclude>
     <ClInclude Include="..\ThirdParties\DearImGUI\imgui_impl_dx12.h">
-      <Filter>DearImGUI</Filter>
+      <Filter>ThirdParties\DearImGUI</Filter>
     </ClInclude>
     <ClInclude Include="..\ThirdParties\DearImGUI\imgui_impl_win32.h">
-      <Filter>DearImGUI</Filter>
+      <Filter>ThirdParties\DearImGUI</Filter>
     </ClInclude>
     <ClInclude Include="..\ThirdParties\DearImGUI\imgui_internal.h">
-      <Filter>DearImGUI</Filter>
+      <Filter>ThirdParties\DearImGUI</Filter>
     </ClInclude>
     <ClInclude Include="..\ThirdParties\DearImGUI\imstb_rectpack.h">
-      <Filter>DearImGUI</Filter>
+      <Filter>ThirdParties\DearImGUI</Filter>
     </ClInclude>
     <ClInclude Include="..\ThirdParties\DearImGUI\imstb_textedit.h">
-      <Filter>DearImGUI</Filter>
+      <Filter>ThirdParties\DearImGUI</Filter>
     </ClInclude>
     <ClInclude Include="..\ThirdParties\DearImGUI\imstb_truetype.h">
-      <Filter>DearImGUI</Filter>
+      <Filter>ThirdParties\DearImGUI</Filter>
     </ClInclude>
+    <ClInclude Include="D3D12App.h">
+      <Filter>Source Files\app</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D12TemplateApp.h">
+      <Filter>Source Files\app</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d12Util.h">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore">
+      <Filter>Github</Filter>
+    </None>
   </ItemGroup>
 </Project>

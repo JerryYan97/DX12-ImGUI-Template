@@ -170,6 +170,8 @@
     <ClCompile Include="..\ThirdParties\DearImGUI\imgui_impl_win32.cpp" />
     <ClCompile Include="..\ThirdParties\DearImGUI\imgui_tables.cpp" />
     <ClCompile Include="..\ThirdParties\DearImGUI\imgui_widgets.cpp" />
+    <ClCompile Include="D3D12App.cpp" />
+    <ClCompile Include="D3D12TemplateApp.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -181,6 +183,12 @@
     <ClInclude Include="..\ThirdParties\DearImGUI\imstb_rectpack.h" />
     <ClInclude Include="..\ThirdParties\DearImGUI\imstb_textedit.h" />
     <ClInclude Include="..\ThirdParties\DearImGUI\imstb_truetype.h" />
+    <ClInclude Include="D3D12App.h" />
+    <ClInclude Include="D3D12TemplateApp.h" />
+    <ClInclude Include="d3d12Util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
