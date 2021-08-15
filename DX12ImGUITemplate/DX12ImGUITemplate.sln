@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30709.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DX12ImGUITemplate", "DX12ImGUITemplate.vcxproj", "{C49002FB-6FA0-45DC-988D-7F498EA594DB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DebugLayerTest", "..\DebugLayerTest\DebugLayerTest.vcxproj", "{6F64AD7B-7069-4F3D-8EEF-68160A73148C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{C49002FB-6FA0-45DC-988D-7F498EA594DB}.Release|x64.Build.0 = Release|x64
 		{C49002FB-6FA0-45DC-988D-7F498EA594DB}.Release|x86.ActiveCfg = Release|Win32
 		{C49002FB-6FA0-45DC-988D-7F498EA594DB}.Release|x86.Build.0 = Release|Win32
+		{6F64AD7B-7069-4F3D-8EEF-68160A73148C}.Debug|x64.ActiveCfg = Debug|x64
+		{6F64AD7B-7069-4F3D-8EEF-68160A73148C}.Debug|x64.Build.0 = Debug|x64
+		{6F64AD7B-7069-4F3D-8EEF-68160A73148C}.Debug|x86.ActiveCfg = Debug|Win32
+		{6F64AD7B-7069-4F3D-8EEF-68160A73148C}.Debug|x86.Build.0 = Debug|Win32
+		{6F64AD7B-7069-4F3D-8EEF-68160A73148C}.Release|x64.ActiveCfg = Release|x64
+		{6F64AD7B-7069-4F3D-8EEF-68160A73148C}.Release|x64.Build.0 = Release|x64
+		{6F64AD7B-7069-4F3D-8EEF-68160A73148C}.Release|x86.ActiveCfg = Release|Win32
+		{6F64AD7B-7069-4F3D-8EEF-68160A73148C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

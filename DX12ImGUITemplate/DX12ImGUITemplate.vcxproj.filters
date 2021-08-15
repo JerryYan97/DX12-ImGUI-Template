@@ -28,77 +28,86 @@
     <Filter Include="Source Files\utils">
       <UniqueIdentifier>{69e058cd-e55d-41ff-bea1-b50974de5a3f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ThirdParties\HelpersFunc">
+      <UniqueIdentifier>{5c68f707-4183-42b1-8d90-1a8dcf2e079e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ThirdParties\DearImGUI\imgui.cpp">
-      <Filter>ThirdParties\DearImGUI</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ThirdParties\DearImGUI\imgui_demo.cpp">
-      <Filter>ThirdParties\DearImGUI</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ThirdParties\DearImGUI\imgui_draw.cpp">
-      <Filter>ThirdParties\DearImGUI</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ThirdParties\DearImGUI\imgui_impl_dx12.cpp">
-      <Filter>ThirdParties\DearImGUI</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ThirdParties\DearImGUI\imgui_impl_win32.cpp">
-      <Filter>ThirdParties\DearImGUI</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ThirdParties\DearImGUI\imgui_tables.cpp">
-      <Filter>ThirdParties\DearImGUI</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ThirdParties\DearImGUI\imgui_widgets.cpp">
-      <Filter>ThirdParties\DearImGUI</Filter>
-    </ClCompile>
-    <ClCompile Include="D3D12App.cpp">
+    <ClCompile Include="src\D3D12TemplateApp.cpp">
       <Filter>Source Files\app</Filter>
     </ClCompile>
-    <ClCompile Include="D3D12TemplateApp.cpp">
+    <ClCompile Include="ThirdParties\DearImGUI\imgui.cpp">
+      <Filter>ThirdParties\DearImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParties\DearImGUI\imgui_demo.cpp">
+      <Filter>ThirdParties\DearImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParties\DearImGUI\imgui_draw.cpp">
+      <Filter>ThirdParties\DearImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParties\DearImGUI\imgui_impl_dx12.cpp">
+      <Filter>ThirdParties\DearImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParties\DearImGUI\imgui_impl_win32.cpp">
+      <Filter>ThirdParties\DearImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParties\DearImGUI\imgui_tables.cpp">
+      <Filter>ThirdParties\DearImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParties\DearImGUI\imgui_widgets.cpp">
+      <Filter>ThirdParties\DearImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\D3D12App.cpp">
       <Filter>Source Files\app</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\ThirdParties\DearImGUI\imconfig.h">
-      <Filter>ThirdParties\DearImGUI</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ThirdParties\DearImGUI\imgui.h">
-      <Filter>ThirdParties\DearImGUI</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ThirdParties\DearImGUI\imgui_impl_dx12.h">
-      <Filter>ThirdParties\DearImGUI</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ThirdParties\DearImGUI\imgui_impl_win32.h">
-      <Filter>ThirdParties\DearImGUI</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ThirdParties\DearImGUI\imgui_internal.h">
-      <Filter>ThirdParties\DearImGUI</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ThirdParties\DearImGUI\imstb_rectpack.h">
-      <Filter>ThirdParties\DearImGUI</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ThirdParties\DearImGUI\imstb_textedit.h">
-      <Filter>ThirdParties\DearImGUI</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ThirdParties\DearImGUI\imstb_truetype.h">
-      <Filter>ThirdParties\DearImGUI</Filter>
-    </ClInclude>
-    <ClInclude Include="D3D12App.h">
+    <ClInclude Include="src\D3D12App.h">
       <Filter>Source Files\app</Filter>
     </ClInclude>
-    <ClInclude Include="D3D12TemplateApp.h">
+    <ClInclude Include="src\D3D12TemplateApp.h">
       <Filter>Source Files\app</Filter>
     </ClInclude>
-    <ClInclude Include="d3d12Util.h">
+    <ClInclude Include="src\d3d12Util.h">
       <Filter>Source Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParties\DearImGUI\imconfig.h">
+      <Filter>ThirdParties\DearImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParties\DearImGUI\imgui.h">
+      <Filter>ThirdParties\DearImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParties\DearImGUI\imgui_impl_dx12.h">
+      <Filter>ThirdParties\DearImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParties\DearImGUI\imgui_impl_win32.h">
+      <Filter>ThirdParties\DearImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParties\DearImGUI\imgui_internal.h">
+      <Filter>ThirdParties\DearImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParties\DearImGUI\imstb_rectpack.h">
+      <Filter>ThirdParties\DearImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParties\DearImGUI\imstb_textedit.h">
+      <Filter>ThirdParties\DearImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParties\DearImGUI\imstb_truetype.h">
+      <Filter>ThirdParties\DearImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParties\Dx12Helper\d3dx12.h">
+      <Filter>ThirdParties\HelpersFunc</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore">
       <Filter>Github</Filter>
+    </None>
+    <None Include="ThirdParties\DearImGUI\imgui.ini">
+      <Filter>ThirdParties\DearImGUI</Filter>
     </None>
   </ItemGroup>
 </Project>
