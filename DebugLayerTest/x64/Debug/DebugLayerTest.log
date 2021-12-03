@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\JiaruiYan\PostMasterProjects\DX12\DX12-ImGUI-Template\DebugLayerTest\main.cpp(508,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  DebugLayerTest.vcxproj -> C:\JiaruiYan\PostMasterProjects\DX12\DX12-ImGUI-Template\DX12ImGUITemplate\x64\Debug\DebugLayerTest.exe

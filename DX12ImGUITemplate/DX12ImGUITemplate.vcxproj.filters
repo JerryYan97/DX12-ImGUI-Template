@@ -36,9 +36,6 @@
     <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\D3D12TemplateApp.cpp">
-      <Filter>Source Files\app</Filter>
-    </ClCompile>
     <ClCompile Include="ThirdParties\DearImGUI\imgui.cpp">
       <Filter>ThirdParties\DearImGUI</Filter>
     </ClCompile>
@@ -60,17 +57,14 @@
     <ClCompile Include="ThirdParties\DearImGUI\imgui_widgets.cpp">
       <Filter>ThirdParties\DearImGUI</Filter>
     </ClCompile>
-    <ClCompile Include="src\D3D12App.cpp">
+    <ClCompile Include="src\D3D12ImGUIApp.cpp">
+      <Filter>Source Files\app</Filter>
+    </ClCompile>
+    <ClCompile Include="src\D3D12FrameworkApp.cpp">
       <Filter>Source Files\app</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\D3D12App.h">
-      <Filter>Source Files\app</Filter>
-    </ClInclude>
-    <ClInclude Include="src\D3D12TemplateApp.h">
-      <Filter>Source Files\app</Filter>
-    </ClInclude>
     <ClInclude Include="src\d3d12Util.h">
       <Filter>Source Files\utils</Filter>
     </ClInclude>
@@ -100,6 +94,12 @@
     </ClInclude>
     <ClInclude Include="ThirdParties\Dx12Helper\d3dx12.h">
       <Filter>ThirdParties\HelpersFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\D3D12ImGUIApp.h">
+      <Filter>Source Files\app</Filter>
+    </ClInclude>
+    <ClInclude Include="src\D3D12FrameworkApp.h">
+      <Filter>Source Files\app</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

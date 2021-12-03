@@ -1,5 +1,6 @@
-#include "D3D12App.h"
+#include "D3D12FrameworkApp.h"
 #include "d3d12Util.h"
+#include <iostream>
 int main(int, char**) {
     // Enable run-time memory check for debug builds.
 #if defined(DEBUG) | defined(_DEBUG)
@@ -17,7 +18,7 @@ int main(int, char**) {
             initInfo.enableDebugLayer = true;
             initInfo.backBufferNum = 2;
         }
-        D3D12App mApp(initInfo);
+        D3D12FrameworkApp mApp(initInfo);
     }
     catch (DxException& e)
     {
